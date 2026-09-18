@@ -2,7 +2,7 @@
 
 A Next.js app for exploring the original 151 Pokémon. Built with the App Router, TypeScript, and Tailwind CSS.
 
-**Live Demo:** [pokemon-next.vercel.app](https://pokemon-next-inhvnfu1j-philobster.vercel.app/)
+**Live Demo:** [pokemon-next.vercel.app](https://pokemon-next-two-pi.vercel.app/)
 
 ---
 
