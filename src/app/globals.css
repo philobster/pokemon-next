@@ -1,6 +1,62 @@
 @import "tailwindcss";
 
 :root {
+  --color-normal-d-type: #2c2c20;
+  --color-normal-l-type: #A8A77A;
+  
+  --color-fire-d-type: #3b200b;
+  --color-fire-l-type: #EE8130;
+  
+  --color-water-d-type: #19243d;
+  --color-water-l-type: #6390F0;
+  
+  --color-electric-d-type: #3b320a;
+  --color-electric-l-type: #F7D02C;
+  
+  --color-grass-d-type: #213614;
+  --color-grass-l-type: #7AC74C;
+
+  --color-ice-d-type: #263837;
+  --color-ice-l-type: #96D9D6;
+
+  --color-fighting-d-type: #360c0b;
+  --color-fighting-l-type: #C22E28;
+
+  --color-poison-d-type: #2e112e;
+  --color-poison-l-type: #A33EA1;
+
+  --color-ground-d-type: #493d1f;
+  --color-ground-l-type: #E2BF65;
+
+  --color-flying-d-type: #2f2844;
+  --color-flying-l-type: #A98FF3;
+
+  --color-psychic-d-type: #3a131f;
+  --color-psychic-l-type: #F95587;
+
+  --color-bug-d-type: #2c3107;
+  --color-bug-l-type: #A6B91A;
+
+  --color-rock-d-type: #3d3611;
+  --color-rock-l-type: #B6A136;
+
+  --color-ghost-d-type: #281e35;
+  --color-ghost-l-type: #735797;
+
+  --color-dragon-d-type: #110727;
+  --color-dragon-l-type: #6F35FC;
+
+  --color-dark-d-type: #18120e;
+  --color-dark-l-type: #705746;
+
+  --color-steel-d-type: #313138;
+  --color-steel-l-type: #B7B7CE;
+
+  --color-fairy-d-type: #3b2430;
+  --color-fairy-l-type: #D685AD;
+}
+
+:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -22,5 +78,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
